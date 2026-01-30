@@ -25,7 +25,7 @@ jobs:
                     echo "Connected to EC2"
 
                     echo "cd to poc18 app directory"
-                    cd /home/${{ secrets.EC2_USER }}/POC-18
+                    cd /home/${{ secrets.EC2_USER }}/Poc18
                     cd poc18-aws
 
                     echo "Checkout to dev branch"
@@ -63,7 +63,7 @@ jobs:
                     echo "Connected to EC2"
 
                     echo "cd to poc18 app directory"
-                    cd /home/${{ secrets.EC2_USER }}/POC-18
+                    cd /home/${{ secrets.EC2_USER }}/Poc18
                     cd poc18-aws
 
                     echo "Checkout to test branch"
@@ -101,7 +101,7 @@ jobs:
                     echo "Connected to EC2"
 
                     echo "cd to poc18 app directory"
-                    cd /home/${{ secrets.EC2_USER }}/POC-18
+                    cd /home/${{ secrets.EC2_USER }}/Poc18
                     cd poc18-aws
 
                     echo "Checkout to main branch"
