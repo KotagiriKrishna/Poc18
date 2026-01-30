@@ -102,7 +102,6 @@ jobs:
 
                     echo "cd to poc18 app directory"
                     cd /home/${{ secrets.EC2_USER }}/Poc18
-                    cd poc18-aws
 
                     echo "Checkout to main branch"
                     git checkout main
